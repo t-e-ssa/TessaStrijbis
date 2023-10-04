@@ -54,7 +54,7 @@ ul li {
 
 .index_menu {
     height: 100vh;
-    background-image: url(afbeeldingen/Mountains.jpg);
+    background-image: url(afbeeldingen/mountains.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -114,7 +114,7 @@ h2 {
 }
 
 h3 {
-    color: blanchedalmond;
+    color: coral;
 }
 
 .ondertekst {
@@ -189,6 +189,10 @@ p {
 
 
 /* main index*/
+
+
+/* steden.hmtl opmaak */
+
 .steden_menu {
     height: 100vh;
     background-image: url(afbeeldingen/achtergrondfoto_steden.webp);
@@ -201,4 +205,114 @@ p {
     margin-bottom: 150px;
     color: whitesmoke;
     text-align: center;
+}
+
+.lasvegas_chicago_losangles {
+    display: flex;
+    justify-content: center;
+}
+
+.lasvegas_chicago_losangles .knopje {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.lasvegas_chicago_losangles .knopje:hover {
+    background-color:teal;
+}
+
+.newyork_sanfrancisco_miami {
+    display: flex;
+    justify-content: center;
+}
+
+.newyork_sanfrancisco_miami .knopje {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.newyork_sanfrancisco_miami .knopje:hover {
+    background-color:teal;
+}
+
+.orlando_washington_sandiego {
+    display: flex;
+    justify-content: center;
+}
+
+.orlando_washington_sandiego .knopje {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.orlando_washington_sandiego .knopje:hover {
+    background-color:teal;
+}
+
+.kaart {
+    background:coral;
+    width: 100vh;
+    height: 570px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.kaart_afbeelding {
+    height: 350px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.kaart p {
+    color: black;
+}
+
+.kaart h3 {
+    color: black;
+    text-align: center;
+}
+
+.kaart_1 {
+    background-image: url(afbeeldingen/las_vegas.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_2 {
+    background-image: url(afbeeldingen/Chicage.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_3 {
+    background-image: url(afbeeldingen/Los_Angeles.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_4 {
+    background-image: url(afbeeldingen/san_francisco.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_5 {
+    background-image: url(afbeeldingen/times_square.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_6 {
+    background-image: url(afbeeldingen/miami_beach.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_7 {
+    background-image: url(afbeeldingen/orlando.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_8 {
+    background-image: url(afbeeldingen/washington_dc.jpg);
+    border-radius: 15px 15px 0 0;
+}
+
+.kaart_9 {
+    background-image: url(afbeeldingen/sandiego.jpg);
+    border-radius: 15px 15px 0 0;
 }

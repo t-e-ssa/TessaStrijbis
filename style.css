@@ -21,7 +21,12 @@ header {
     width: 100%;
     justify-content: space-between;
     padding: 20px;
-    color: whitesmoke;
+}
+
+header img {
+    height: 80px;
+    width: 100px;
+    border-radius: 20px;
 }
 
 a {
@@ -33,7 +38,7 @@ header a {
 }
 
 header a:hover {
-    color:aquamarine;
+    color:teal;
 }
 
 ul{
@@ -66,10 +71,6 @@ ul li {
     text-align: center;
 }
 
-.index_menu h2 {
-    font-size: 1em;
-}
-
 .header-button {
     display: flex;
     justify-content: center;
@@ -83,15 +84,17 @@ margin: 10px auto;
 border-radius: 5px;
 }
 
-.index_menu h1 {
-    font-size: 7vh;
+h1 {
+    font-size: 2em;
     margin-top: 50px;
+    font-weight: 900;
 }
 
 .knopje {
     padding: 8px 15px;
     background: coral;
     color: black;
+    border-radius: 10px;
 }
 
 .knopje:hover {
@@ -104,17 +107,24 @@ h1 {
     text-align: center;
 }
 
-header h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 h2 {
     color: whitesmoke;
     text-align: center;
 }
 
+header h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h3 {
     color: coral;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: teal;
+    margin: 20px auto;
 }
 
 .ondertekst {
@@ -128,36 +138,25 @@ h3 {
     font-size: 1.5em;
 }
 
-
-.home_tekst {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 50px;
+.eten {
+    float:right;
+    width: 40%;
+    height: 300px;
+    text-align: center;
 }
 
-.home_tekst {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.colorado {
+    float: left;
+    width: 40%;
+    height: 400px;
+    text-align: center; 
 }
 
-h4 {
-    font-size: 1.5em;
-    color: teal;
-    margin: 20px auto;
-}
 
 p {
     color:darkslategrey;
     padding: 10px 40px 20px;
     text-align: center;
-}
-
-.home_tekst .ctn {
-    margin-top: 30px;
 }
 
 .ontdek {
@@ -171,23 +170,29 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 700px;
+    margin-bottom: 50px;
 }
 
-.ontdek_tekst {
+.ontdek ol {
     width: 60%;
     padding: 50px;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+    font-weight: 600;
 }
 
 .ontdek p {
-    color: white;
+    color: whitesmoke;
     text-align: center;
+    font-weight: 700;
 }
 
-
+.ontdek h2 {
+   color: whitesmoke;
+}
 /* main index*/
 
 
@@ -255,6 +260,7 @@ p {
     height: 570px;
     margin: 10px;
     border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.3);
 }
 
 .kaart_afbeelding {
@@ -313,6 +319,63 @@ p {
 }
 
 .kaart_9 {
-    background-image: url(afbeeldingen/sandiego.jpg);
+    background-image: url(afbeeldingen/denver.jpg);
     border-radius: 15px 15px 0 0;
+}
+
+footer {
+    background-color: coral;
+}
+
+footer h4, p {
+    color: black;
+}
+
+.orlando_menu {
+    height: 100vh;
+    background-image: url(afbeeldingen/orlando_2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.kaas img {
+    width: 60%;
+    height: 500px;
+    float: right;
+}
+
+.kaas p {
+    float: left;
+    width: 40%;
+}
+
+.kaas {
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.kaas h5 {
+    text-align: center;
+}
+
+.attracties h2 {
+    color: teal;
+}
+
+
+.disneyland {
+    background-image: url(afbeeldingen/disneyland.jpg);
+    width: 43%;
+    height: 600px;
+}
+
+.disneyland a {
+    background-color: coral;
+    color: black;
 }

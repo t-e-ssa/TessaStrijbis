@@ -344,23 +344,23 @@ footer h4, p {
     text-align: center;
 }
 
-.kaas img {
+.tekst_links img {
     width: 60%;
     height: 500px;
     float: right;
 }
 
-.kaas p {
+.tekst_links p {
     float: left;
     width: 40%;
 }
 
-.kaas {
+.tekst_links {
     margin-bottom: 200px;
     margin-top: 50px;
 }
 
-.kaas h5 {
+.tekst_links h5 {
     text-align: center;
 }
 
@@ -368,14 +368,49 @@ footer h4, p {
     color: teal;
 }
 
-
-.disneyland {
-    background-image: url(afbeeldingen/disneyland.jpg);
-    width: 43%;
-    height: 600px;
+.tekst_rechts {
+    margin-bottom: 675px;
 }
 
-.disneyland a {
+.tekst_rechts img {
+    width: 43%;
+    height: 600px;
+    float: left;
+}
+
+.tekst_rechts p {
+    width: 43%;
+    height: 600px;
+    float: right;
+}
+
+.tekst_rechts a {
     background-color: coral;
     color: black;
+    float: left;
+    width: 43%;
+}
+
+.tekst_rechts h5 {
+   text-align: center;
+}
+
+.new_york_menu {
+    height: 100vh;
+    background-image: url(afbeeldingen/new_york_achtergrond.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.oranje_vlak {
+    background-color: coral;
+    border-radius: 15px;
+    width: auto;
+    height: 100vh;
 }

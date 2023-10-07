@@ -11,8 +11,6 @@ body, html {
     overflow-x: hidden;
 }
 
-/* header */
-
 header {
     position: absolute;
     top: 0;
@@ -53,9 +51,14 @@ nav ul li {
     margin: 0 30px;
 }
 
-/* einde header */
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
 
-/* main index*/
+/* Homepagina */
 
 .index_menu {
     height: 100vh;
@@ -66,7 +69,6 @@ nav ul li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 150px;
     color: whitesmoke;
     text-align: center;
 }
@@ -84,12 +86,6 @@ margin: 10px auto;
 border-radius: 5px;
 }
 
-h1 {
-    font-size: 2em;
-    margin-top: 50px;
-    font-weight: 900;
-}
-
 .knopje {
     padding: 8px 15px;
     background: coral;
@@ -102,11 +98,6 @@ h1 {
     background-color:teal;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-}
-
 
 h2 {
     color: whitesmoke;
@@ -115,10 +106,6 @@ h2 {
 
 header h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h3 {
-    color: coral;
 }
 
 h4 {
@@ -136,6 +123,7 @@ h4 {
     color:teal;
     text-align: center;
     font-size: 1.5em;
+    font-weight: 900;
 }
 
 .eten {
@@ -143,13 +131,15 @@ h4 {
     width: 40%;
     height: 300px;
     text-align: center;
+    margin-right: 50px;
 }
 
 .colorado {
     float: left;
-    width: 40%;
+    width: 35%;
     height: 400px;
     text-align: center; 
+    margin-left: 50px;
 }
 
 
@@ -180,17 +170,16 @@ p {
     color: black;
     display: flex;
     flex-direction: column;
-    font-weight: 600;
 }
 
 .ontdek p {
     color: black;
     text-align: center;
-    font-weight: 700;
 }
 
 .ontdek h2 {
    color: black;
+   font-weight: 900;
 }
 /* main index*/
 
@@ -417,7 +406,7 @@ p {
 .oranje_vlak_1 {
     background-color: coral;
     border-radius: 15px;
-    width: 200vh;
+    width: 203vh;
     height: 500px;
     margin-bottom: 30px;
 }
@@ -431,7 +420,7 @@ p {
 .oranje_vlak_2 {
     background-color: teal;
     border-radius: 15px;
-    width: 200vh;
+    width: 203vh;
     height: 500px;
     margin-bottom: 30px;
 }
@@ -495,7 +484,7 @@ footer ul {
 
 footer {
     background-color: coral;
-    height: 280px;
+    height: 120px;
 }
 
 footer p {
@@ -511,7 +500,7 @@ footer h4 {
 .oranje_vlak_3 {
     background-color: coral;
     border-radius: 15px;
-    width: 200vh;
+    width: 203vh;
     height: 500px;
 }
 

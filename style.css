@@ -314,7 +314,7 @@ footer h4 {
 /* Orlando activiteiten */
 .orlando_menu {
     height: 100vh;
-    background-image: url(afbeeldingen/orlando_2.jpg);
+    background-image: url(afbeeldingen-orlando/orlando.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -329,22 +329,26 @@ footer h4 {
 }
 .tekst_links img {
     width: 60%;
-    height: 500px;
+    height: 550px;
     float: right;
 }
 
 .tekst_links p {
     float: left;
-    width: 40%;
+    width: 37%;
+    margin-bottom: 30px;
+    margin-left: 25px;
 }
 
 .tekst_links {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     margin-top: 50px;
 }
 
 .tekst_links h5 {
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 1em;
 }
 
 .attracties h2 {
@@ -362,9 +366,16 @@ footer h4 {
 }
 
 .tekst_rechts p {
-    width: 43%;
-    height: 600px;
+    width: 50%;
+    height: 90px;
     float: right;
+    margin-right: 15px;
+}
+
+.tekst_rechts h5 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1em;
 }
 
 .tekst_rechts a {
@@ -374,14 +385,10 @@ footer h4 {
     width: 43%;
 }
 
-.tekst_rechts h5 {
-   text-align: center;
-}
-
 .links img{
     width: 60%;
     height: 500px;
-    float: right;
+    display: flex;
     margin-bottom: 100px;
 }
 

@@ -13,8 +13,6 @@ body, html {
 
 header {
     position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -27,16 +25,16 @@ header img {
     border-radius: 20px;
 }
 
-a {
-    text-decoration: none;
-}
-
 header a {
-    color: white;
+    color: whitesmoke;
 }
 
 header a:hover {
     color:coral;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav ul{
@@ -44,7 +42,6 @@ nav ul{
     text-decoration: underline;
     background:rgb(86, 86, 136);
     display: flex;
-    align-items: center;
 }
 
 nav ul li {
@@ -54,36 +51,22 @@ nav ul li {
 h1 {
     font-size: 2em;
     font-weight: 900;
-    color: white;
     text-align: center;
 }
 
-/* Homepagina */
-
-.index_menu {
-    height: 100vh;
-    background-image: url(afbeeldingen/mountains.jpg);
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: whitesmoke;
+h2 {
     text-align: center;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: teal;
+    margin: 20px auto;
 }
 
 .header-button {
     display: flex;
     justify-content: center;
-}
-
-.onderlijn {
-width: 150px;
-height: 4px;
-background-color:coral;
-margin: 10px auto;
-border-radius: 5px;
 }
 
 .knopje {
@@ -94,24 +77,16 @@ border-radius: 5px;
 }
 
 .knopje:hover {
-    color: white;
+    color: whitesmoke;
     background-color:teal;
 }
 
-
-h2 {
-    color: whitesmoke;
-    text-align: center;
-}
-
-header h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h4 {
-    font-size: 1.5em;
-    color: teal;
-    margin: 20px auto;
+.onderlijn {
+width: 150px;
+height: 4px;
+background-color:coral;
+margin: 10px auto;
+border-radius: 5px;
 }
 
 .ondertekst {
@@ -121,125 +96,115 @@ h4 {
 
 .ondertekst h2 {
     color:teal;
-    text-align: center;
-    font-size: 1.5em;
     font-weight: 900;
 }
 
-.eten {
+.ondertekst p {
+    text-align: center;
+}
+
+footer {
+    background-color: coral;
+    height: 120px;
+    border-radius: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    float: left;
+}
+
+footer p {
+    color: black;
+    padding: 0 90px 10px 40px;
+}
+
+footer h4 {
+    padding-left: 40px;
+    padding-top: 10px;
+    color: darkslategrey;
+}
+
+/* Homepagina */
+.index_menu {
+    height: 100vh;
+    background-image: url(afbeeldingen-home/achtergrond_homi.jpg);
+    /* Brondvermelding afbeelding: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.1zoom.me%2Fnl%2Fwallpaper%2F552741%2Fz3675%2F1920x1080&psig=AOvVaw2nBfaKHGVwqkk82Wi80HSz&ust=1696858922420000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDHi5zK5oEDFQAAAAAdAAAAABAE */ 
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.index_menu h2 {
+    margin-bottom: 30px;
+}
+
+.stad_natuur {
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.stad_natuur img {
+    height: 400px;
+}
+
+.strand {
     float:right;
     width: 40%;
-    height: 300px;
     text-align: center;
     margin-right: 50px;
 }
 
-.colorado {
-    float: left;
-    width: 35%;
+.strand img {
     height: 400px;
-    text-align: center; 
-    margin-left: 50px;
 }
 
-
-p {
-    color:darkslategrey;
-    padding: 10px 40px 20px;
-    text-align: center;
-}
-
-.ontdek {
-    width: 100%;
+.feitjes {
     height: 100vh;
-    background-image: url(afbeeldingen/vliegtuig\ foto.jpg);
+    background-image: url(afbeeldingen-home/vliegtuig.jpg); /* Deze Foto is zelf gemaakt */
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 700px;
-    margin-bottom: 50px;
 }
 
-.ontdek ol {
-    width: 60%;
-    padding: 50px;
-    color: black;
-    display: flex;
-    flex-direction: column;
+.feitjes ol {
+    padding: 30px;
 }
 
-.ontdek p {
-    color: black;
-    text-align: center;
+.feitjes h3 {
+    font-size: 1.5em;
+    font-weight: 900;
 }
 
-.ontdek h2 {
-   color: black;
-   font-weight: 900;
+.feitjes p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-/* main index*/
 
-
-/* steden.hmtl opmaak */
-
+/* Steden */
 .steden_menu {
     height: 100vh;
-    background-image: url(afbeeldingen/achtergrondfoto_steden.webp);
+    background-image: url(afbeeldingen-steden/achtergrondfoto_steden.webp);
+    /* Bronvermelding afbeelding: https://pierrej.bandcamp.com/album/crocketts-theme */
     background-position: bottom;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 150px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.lasvegas_chicago_losangles {
-    display: flex;
-    justify-content: center;
-}
-
-.lasvegas_chicago_losangles .knopje {
-    background-color: black;
     color: whitesmoke;
 }
 
-.lasvegas_chicago_losangles .knopje:hover {
-    background-color:teal;
-}
-
-.newyork_sanfrancisco_miami {
-    display: flex;
-    justify-content: center;
-}
-
-.newyork_sanfrancisco_miami .knopje {
-    background-color: black;
-    color: whitesmoke;
-}
-
-.newyork_sanfrancisco_miami .knopje:hover {
-    background-color:teal;
-}
-
-.orlando_washington_sandiego {
-    display: flex;
-    justify-content: center;
-}
-
-.orlando_washington_sandiego .knopje {
-    background-color: black;
-    color: whitesmoke;
-}
-
-.orlando_washington_sandiego .knopje:hover {
-    background-color:teal;
+.steden_menu h2 {
+    margin-bottom: 30px;
 }
 
 .kaart {
@@ -251,79 +216,117 @@ p {
     box-shadow: 5px 5px 15px rgb(0, 0, 0,0.3);
 }
 
+.kaart p {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.kaart h3 {
+    text-align: center;
+}
+
+.kaart .knopje {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.kaart .knopje:hover {
+    background-color:teal;
+}
+
 .kaart_afbeelding {
     height: 350px;
     margin-bottom: 15px;
     background-size: cover;
 }
 
-.kaart p {
-    color: black;
+.lasvegas_chicago_losangles {
+    display: flex;
+    justify-content: center;
 }
 
-.kaart h3 {
-    color: black;
-    text-align: center;
+.newyork_sanfrancisco_miami {
+    display: flex;
+    justify-content: center;
 }
 
-.kaart_1 {
-    background-image: url(afbeeldingen/las_vegas.jpg);
+.orlando_washington_sandiego {
+    display: flex;
+    justify-content: center;
+}
+
+.las_vegas {
+    background-image: url(afbeeldingen-steden/las_vegas.jpg);
+    /* Bronvermelding afbeelding: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.1zoom.me%2Fnl%2Fwallpaper%2F481652%2Fz4967.8%2F&psig=AOvVaw3ag1RNid5ms08xa1AZkM0n&ust=1696871684626000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCezeH55oEDFQAAAAAdAAAAABAE */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_2 {
-    background-image: url(afbeeldingen/Chicage.jpg);
+.chicago {
+    background-image: url(afbeeldingen-steden/chicago.jpg);
+    /* Bronvermelding afbeelding: https://podroztrwa.pl/chicago/ */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_3 {
-    background-image: url(afbeeldingen/Los_Angeles.jpg);
+.los_angeles {
+    background-image: url(afbeeldingen-steden/los_angeles.jpg);
+    /* Bronvermelding afbeelding: https://waarovernachtenin.nl/bestemmingen/verenigde-staten/los-angeles/ */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_4 {
-    background-image: url(afbeeldingen/san_francisco.jpg);
+.san_francisco {
+    background-image: url(afbeeldingen-steden/san_francisco.jpg);
+    /* Bronvermelding afbeelding: https://www.travelandleisure.com/trip-ideas/best-things-to-do-in-san-francisco */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_5 {
-    background-image: url(afbeeldingen/times_square.jpg);
+.new_york {
+    background-image: url(afbeeldingen-steden/times_square.jpg);
+    /* Bronvermelding afbeelding: https://newyorkaktuell.nyc/times-square-neubeginn/ */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_6 {
-    background-image: url(afbeeldingen/miami_beach.jpg);
+.miami {
+    background-image: url(afbeeldingen-steden/miami_beach.jpg);
+    /* Bronvermelding afbeelding: https://www.nationalgeographic.com/travel/article/top-activities-things-to-do-111 */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_7 {
-    background-image: url(afbeeldingen/orlando.jpg);
+.orlando {
+    background-image: url(afbeeldingen-steden/orlando.jpg);
+    /* Bronvermelding afbeelding: https://www.droomplekken.nl/verenigde-staten/orlando/ */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_8 {
-    background-image: url(afbeeldingen/washington_dc.jpg);
+.washington_dc {
+    background-image: url(afbeeldingen-steden/washington_dc.jpg);
+    /* Bronvermelding afbeelding: https://www.333travel.nl/amerika/rondreis/new-york-and-washington-by-rail */
     border-radius: 15px 15px 0 0;
 }
 
-.kaart_9 {
-    background-image: url(afbeeldingen/denver.jpg);
+.denver {
+    background-image: url(afbeeldingen-steden/denver.jpg);
+    /* Bronvermelding afbeelding: https://www.travel-experience-live.com/colorado-national-parks-near-denver/ */
     border-radius: 15px 15px 0 0;
 }
 
+/* Orlando activiteiten */
 .orlando_menu {
     height: 100vh;
     background-image: url(afbeeldingen/orlando_2.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 150px;
-    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 70px;
 }
 
+.orlando_menu h2 {
+    margin-bottom: 30px;
+}
 .tekst_links img {
     width: 60%;
     height: 500px;
@@ -336,7 +339,7 @@ p {
 }
 
 .tekst_links {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     margin-top: 50px;
 }
 
@@ -389,21 +392,25 @@ p {
     margin-bottom: 100px;
 }
 
+/* New York activiteiten */
 
 .new_york_menu {
     height: 100vh;
-    background-image: url(afbeeldingen/new_york_achtergrond.jpg);
+    background-image: url(afbeeldingen-new-york/achtergrond_new_york.jpg);
+    /* Bronvermelding afbeelding: https://www.kayak.co.uk/news/the-best-viewpoints-in-new-york/ */
     background-position: bottom;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 150px;
-    text-align: center;
+    color: whitesmoke;
 }
 
-.oranje_vlak_1 {
+.new_york_menu h2 {
+    margin-bottom: 30px;
+}
+
+.oranje_kaart {
     background-color: coral;
     border-radius: 15px;
     width: 203vh;
@@ -411,13 +418,17 @@ p {
     margin-bottom: 30px;
 }
 
-.oranje_vlak_1 p {
+.oranje_kaart p {
     color: black;
     text-align: left;
     margin-top: 10px;
 }
 
-.oranje_vlak_2 {
+.oranje_kaart h3 {
+    padding: 30px;
+}
+
+.groene_kaart {
     background-color: teal;
     border-radius: 15px;
     width: 203vh;
@@ -425,19 +436,19 @@ p {
     margin-bottom: 30px;
 }
 
-.oranje_vlak_2 p {
+.groene_kaart p {
     color: black;
     text-align: left;
     margin-top: 10px;
 }
 
-.orlando_washington_sandiego .header-button {
-    margin-top: 30px;
+.groene_kaart h3 {
+    padding: 30px;
 }
 
-
-.afbeelding_1 {
-    background-image: url(afbeeldingen/usa-centralpark.jpg);
+.central_park {
+    background-image: url(afbeeldingen-new-york/central_park.jpg);
+    /* Bronvermelding afbeelding: https://www.getyourguide.nl/central-park-l2614/nyc-zelfgeleide-speurtocht-en-rondleiding-door-het-beste-van-central-park-t407979/ */
     width: 90vh;
     height: 500px;
     border-radius: 15px 0 0 15px;
@@ -445,15 +456,16 @@ p {
     margin-right: 50px;
 }
 
-.afbeelding_1 h3 {
+.central_park h3 {
     margin: 35%;
     text-align: center;
     background-color: black;
     color: coral;
 }
 
-.afbeelding_2 {
-    background-image: url(afbeeldingen/one_world_trade_center.jpg);
+.one_world {
+    background-image: url(afbeeldingen-new-york/one_world_trade_center.jpg);
+    /* Bronvermelding afbeelding: https://architectenweb.nl/nieuws/artikel.aspx?ID=35671 */
     width: 90vh;
     height: 500px;
     border-radius: 15px 0 0 15px;
@@ -461,57 +473,16 @@ p {
     margin-right: 50px;
 }
 
-.afbeelding_2 h3 {
+.one_world h3 {
     margin: 35%;
     text-align: center;
     background-color: black;
     color: teal;
 }
 
-.eten img {
-    height: 400px;
-}
-
-.colorado img {
-    height: 400px;
-    width: 130%;
-}
-
-footer ul {
-    list-style-type: none;
-    float: left;
-}
-
-footer {
-    background-color: coral;
-    height: 120px;
-}
-
-footer p {
-    color: black;
-    margin-bottom: 20px;
-}
-
-footer h4 {
-    margin-left: 40px;
-    color: darkslategrey;
-}
-
-.oranje_vlak_3 {
-    background-color: coral;
-    border-radius: 15px;
-    width: 203vh;
-    height: 500px;
-}
-
-.oranje_vlak_3 p {
-    color: black;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.afbeelding_3 {
-    background-image: url(afbeeldingen/vrijheidsbeeld.jpg);
+.vrijheidsbeeld {
+    background-image: url(afbeeldingen-new-york/vrijheidsbeeld.jpg);
+    /* Bronvermelding afbeelding: https://historianet.nl/techniek/bouwwerken/frankrijk-schonk-vs-het-vrijheidsbeeld */
     width: 90vh;
     height: 500px;
     border-radius: 15px 0 0 15px;
@@ -520,7 +491,7 @@ footer h4 {
     margin-bottom: 30px;
 }
 
-.afbeelding_3 h3 {
+.vrijheidsbeeld h3 {
     margin: 35%;
     text-align: center;
     background-color: black;

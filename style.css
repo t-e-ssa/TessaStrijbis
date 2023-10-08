@@ -315,6 +315,7 @@ footer h4 {
 .orlando_menu {
     height: 100vh;
     background-image: url(afbeeldingen-orlando/orlando.jpg);
+    /*Bronvermelding afbeelding: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reisroutes.be%2Fblog%2Fflorida%2Fbezienswaardigheden-orlando%2F&psig=AOvVaw1AqCDIXJEA-PzwkWXEu2GD&ust=1696884492412000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiL0NWw54EDFQAAAAAdAAAAABAJ */
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -327,77 +328,61 @@ footer h4 {
 .orlando_menu h2 {
     margin-bottom: 30px;
 }
+
 .tekst_links img {
-    width: 60%;
+    width: 50%;
     height: 550px;
-    float: right;
 }
 
 .tekst_links p {
-    float: left;
-    width: 37%;
-    margin-bottom: 30px;
-    margin-left: 25px;
+   margin-bottom: 0 30px 30px 30px;
 }
 
 .tekst_links {
-    margin-bottom: 200px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px 0 50px 0;
 }
 
 .tekst_links h5 {
-    text-align: center;
+    align-items: center;
     margin-bottom: 20px;
     font-size: 1em;
 }
-
 .attracties h2 {
     color: teal;
 }
 
-.tekst_rechts {
-    margin-bottom: 675px;
-}
-
-.tekst_rechts img {
-    width: 43%;
-    height: 600px;
-    float: left;
-}
-
-.tekst_rechts p {
+.tekst_links img, .tekst_rechts img {
     width: 50%;
-    height: 90px;
-    float: right;
-    margin-right: 15px;
+    height: 550px;
 }
 
-.tekst_rechts h5 {
-    margin-bottom: 20px;
+.tekst_links p, .tekst_rechts p {
+    margin: 0 30px 30px 30px;
+}
+
+.tekst_links h5, .tekst_rechts h5 {
     text-align: center;
+    margin-bottom: 20px;
     font-size: 1em;
 }
 
-.tekst_rechts a {
-    background-color: coral;
-    color: black;
-    float: left;
-    width: 43%;
-}
-
-.links img{
-    width: 60%;
-    height: 500px;
+.tekst_links {
     display: flex;
-    margin-bottom: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px 0 50px 0;
 }
 
-.links p {
-    width: 30%;
-    height: 500px;
-    float: left;
-    margin-bottom: 100px;
+.tekst_rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0 50px 0;
 }
+
 
 /* New York activiteiten */
 
